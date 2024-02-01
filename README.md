@@ -17,3 +17,13 @@ You will be working on a modified subset related to Sports and Outdoors purchase
 will only include the ‘Review Text” and the corresponding rating {1,2,3,4,5} provided by the user.
 A .csv file as the training/test data sets. Use this data set to train
 your models and optimize your model parameters
+
+#conclusion 
+The experiment is conducted on a training dataset that requires high running time. The models are trained on a
+sample of the training dataset. This has negatively affected the prediction and decreased efficiency. Despite this
+drawback, the SVM produced an accuracy of 0.67 and the simple RNN produced an accuracy of 0.62. The pre-
+processing increased the model's efficiency as there were not any outliers in the dataset. The topic modeling has
+clustered the reviews into 10 topics, out of which topic 7 has the highest review numbers and topic six has the
+least number of reviews. The machine-learning models outperformed the deep-learning models when the
+running time is considered. The accuracy is quite similar for all the models and only varies by a small
+percentage.
